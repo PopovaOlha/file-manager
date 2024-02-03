@@ -21,9 +21,9 @@ async function listDirectoryContents(directory) {
       return a.name.localeCompare(b.name);
     });
 
-    console.log('Index\tName\tType');
+    console.log('Index  Name              Type');
     sortedItems.forEach(({ index, name, type }) => {
-      console.log(`${index}\t${name}\t${type}`);
+      console.log(`${index}      ${name}              ${type}`);
     });
   } catch (error) {
     console.error('Operation failed:', error.message);
