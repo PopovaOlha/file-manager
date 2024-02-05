@@ -25,7 +25,9 @@ const decompressFile = async (pathToFileZip, pathToFileDecompressed) => {
     }
   } catch (error) {
     console.error(`Decompression operation failed: ${error.message}`);
-  } 
+  } finally {
+    showCurrentDirectoryMessage();
+  }
 };
 
 export default decompressFile;

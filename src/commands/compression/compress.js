@@ -29,7 +29,9 @@ const compressFile = async (pathToFile, pathToFileCompressed) => {
     }
   } catch (error) {
     console.error(`Compression operation failed: ${error.message}`);
-  } 
+  } finally {
+    showCurrentDirectoryMessage();
+  }
 };
 
 export default compressFile;
