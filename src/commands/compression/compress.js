@@ -2,7 +2,7 @@ import { createWriteStream, createReadStream, constants } from 'node:fs';
 import * as zlib from 'node:zlib';
 import { access } from 'node:fs/promises';
 import { pipeline } from 'node:stream/promises';
-import showCurrentDirectoryMessage from '../../../fileUtils/showCurrentDirectoryMessage';
+import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage.js';
 
 const compressFile = async (pathToFile, pathToFileCompressed) => {
   try {

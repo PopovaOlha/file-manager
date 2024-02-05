@@ -1,6 +1,6 @@
 import { cpus, EOL, userInfo } from 'node:os';
 import { arch } from 'node:process';
-import showCurrentDirectoryMessage from '../../../fileUtils/showCurrentDirectoryMessage';
+import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage.js';
 
 const osInform = (command) => {
   try {

@@ -1,5 +1,5 @@
 import { chdir } from "node:process";
-import showCurrentDirectoryMessage from "../../fileUtils/showCurrentDirectoryMessage";
+import showCurrentDirectoryMessage from "../../utils/showCurrentDirectoryMessage.js";
 
 export default function changeDirectory(path) {
   try {
