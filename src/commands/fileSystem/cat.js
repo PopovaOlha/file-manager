@@ -1,6 +1,6 @@
 import { createReadStream } from 'node:fs'
 import { join } from 'node:path'
-import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage'
+import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage.js'
 
 const readAndWriteFile = pathString => {
 	let data = ''

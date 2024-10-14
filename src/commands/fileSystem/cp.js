@@ -2,7 +2,7 @@ import { access } from 'fs/promises'
 import { createReadStream, createWriteStream, F_OK } from 'node:fs'
 import { join } from 'node:path'
 import { pipeline } from 'node:stream/promises'
-import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage'
+import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage.js'
 
 const copyFile = async (fileCopy, pathDirectoryToCopy) => {
 	try {

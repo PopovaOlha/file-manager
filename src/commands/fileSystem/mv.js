@@ -1,7 +1,7 @@
 import { F_OK } from 'node:fs'
 import { access, rm } from 'node:fs/promises'
 import { join } from 'node:path'
-import copyFile from './cp'
+import copyFile from './cp.js'
 
 const moveFile = async (fileMovePath, pathDirectoryToMove) => {
 	try {

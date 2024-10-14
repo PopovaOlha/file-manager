@@ -1,5 +1,5 @@
 import fs from 'fs'
-import showCurrentDirectoryMessage from './showCurrentDirectoryMessage.js'
+import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage.js'
 
 const listDirectoryContents = () => {
 	try {

@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
-import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage'
+import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage.js'
 
 const addNewFile = async nameFile => {
 	try {

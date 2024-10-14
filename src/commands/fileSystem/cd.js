@@ -1,5 +1,5 @@
 import { chdir } from 'node:process'
-import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage'
+import showCurrentDirectoryMessage from '../../utils/showCurrentDirectoryMessage.js'
 
 const changeDirectory = path => {
 	try {
